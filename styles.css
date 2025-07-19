@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "Noyh R";
+  src: url(fonts/NoyhR-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Noyh R Bold";
+  src: url(fonts/NoyhR-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Noyh R Light";
+  src: url(fonts/NoyhR-Light.ttf);
+}
+
+.whole-color {
+  background-color: rgba(33, 33, 35, 255);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+}
+
+.nav {
+  color: rgb(163, 163, 163);
+  font-family: "Noyh R";
+  font-style: normal;
+  font-size: 1.3em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li {
+  display: inline;
+  padding: 0.5em;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0.25em;
+  margin: 0;
+}
+
+.left-side {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heading-bold {
+  color: rgb(255, 255, 255);
+  font-family: "Noyh R Light";
+  font-style: normal;
+}
+
+.heading-large {
+  font-size: 2.4em;
+}
+
+.heading-medium {
+  font-size: 1.9em;
+}
+
+.main-footer {
+  color: rgb(163, 163, 163);
+  font-family: "Noyh R";
+  font-style: normal;
+  font-size: 1.25em;
+}
+
+.heading-main {
+  padding: 0;
+  margin-bottom: 0.1em;
+}
+
+.heading-sub {
+  padding: 0;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  font-size: 1.45em;
+}
+
+.general-text {
+  font-size: 1.4em;
+  color: rgb(255, 255, 255);
+  font-family: "Noyh R Light";
+  font-style: normal;
+}
+
+.images-sub {
+  display: flex;
+  align-items: center;
+  margin-top: 0.15em;
+  margin-bottom: 0.15em;
+  gap: 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+.footer-images-sub {
+  display: flex;
+  align-items: center;
+  margin: 0em;
+  gap: 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2px;
+  margin: 5em;
+}
+
+.main-container-alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1250px;
+}
+
+.headings-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.linkedin {
+  padding: 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25em;
+  padding-bottom: 0;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20%;
+  justify-content: space-between;
+  padding: 0.5em;
+  width: 50%;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.info-row-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.2em;
+  padding-bottom: 0;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.info-row-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 0.5em;
+  width: 50%;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0.25em;
+  padding-bottom: 0;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.project-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 15%;
+  padding: 40px;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.project-section-container {
+  display: flex;
+  flex: 1;
+  margin: 0;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.section-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin: 0;
+  border: solid white 1px;
+  box-sizing: border-box;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-container {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  margin: 5em;
+}
+
+.malayalam {
+  font-size: 0.9em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
