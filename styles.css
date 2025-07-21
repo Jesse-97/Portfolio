@@ -89,7 +89,7 @@ body {
 .general-text {
   font-size: 1.4em;
   color: rgb(255, 255, 255);
-  font-family: "Noyh R Light";
+  font-family: "Noyh R";
   font-style: normal;
 }
 
@@ -162,8 +162,6 @@ body {
   justify-content: space-between;
   padding: 0.5em;
   width: 50%;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .info-row-container {
@@ -172,8 +170,6 @@ body {
   flex-direction: row;
   padding: 0.2em;
   padding-bottom: 0;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .info-row-box {
@@ -182,8 +178,6 @@ body {
   gap: 0rem;
   padding: 0.5em;
   width: 50%;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .about-container {
@@ -192,8 +186,6 @@ body {
   flex-direction: column;
   padding: 0.25em;
   padding-bottom: 0;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .project-container {
@@ -202,16 +194,12 @@ body {
   align-items: flex-start;
   height: 15%;
   padding: 40px;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .project-section-container {
   display: flex;
   flex: 1;
   margin: 0;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .section-container {
@@ -220,8 +208,6 @@ body {
   justify-content: center;
   flex: 1;
   margin: 0;
-  border: solid white 1px;
-  box-sizing: border-box;
 }
 
 .profile-picture {
