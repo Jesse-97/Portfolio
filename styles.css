@@ -176,8 +176,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0rem;
-  padding: 0.5em;
+  padding: 1em;
   width: 50%;
+  background-color: rgba(27, 27, 28, 255);
+  border: solid rgba(33, 33, 35, 255) 5px;
+  box-sizing: border-box;
+  border-radius: 5%;
 }
 
 .about-container {
@@ -230,4 +234,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+body {
+  overflow: hidden;
 }
